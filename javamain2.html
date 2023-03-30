@@ -1,13 +1,17 @@
 
-<html lang="en">
+<html>
     <head>
         <title>Document</title>
     </head>
     <body>
 
-        <button>click</button>
+        <button onclick="myevent('click hoise')">click</button>
+        <button mouseover="myevent('click hoise')">click</button>
         <script>
         
+           function myevent(msg) {
+            console.log(msg);
+           } 
 
 
 
@@ -15,14 +19,5 @@
 
 
     </script>
-
-
-
-
-
-
-
-
-
     </body>
 </html>
