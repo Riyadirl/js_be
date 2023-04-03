@@ -6,15 +6,19 @@
     </head>
     <body>
 
+        <p>4</p>
+        <p>4</p>
+        <p>t</p>
+        <p>t</p>
+        <p>t</p>
 
         <button ondblclick="Demo()"> Click </button>
 
         <script>
             function Demo() {
-             let w= window.open();
-             w.document.open();
-             w.document.write("<h1>Hello new window<h2/>");
-             w.document.close();
+            let myItems =document.getElementsByTagName('p');
+            let ItemCount= myItems.length;
+            alert(ItemCount);
             }
 
            
