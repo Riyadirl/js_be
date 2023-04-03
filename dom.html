@@ -6,14 +6,15 @@
     </head>
     <body>
 
-        <p></p>
+
         <button ondblclick="Demo()"> Click </button>
 
         <script>
             function Demo() {
-                document.open('text/html','replace');
-                document.write("<h2>Mahbu </h2>");
-                document.close();
+             let w= window.open();
+             w.document.open();
+             w.document.write("<h1>Hello new window<h2/>");
+             w.document.close();
             }
 
            
