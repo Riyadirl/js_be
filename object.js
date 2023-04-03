@@ -1,10 +1,9 @@
 const person = {
-    firstName: "Mahbub",
-    lastName : "Riyad",
-    id       : 011211007,
+  firstName: "Mahbub",
+  lastName: "Riyad",
+  id: 011211007,
 
-    fullName : function() {
-      return this.firstName + " " + this.lastName;
-    }
-  }
-
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
