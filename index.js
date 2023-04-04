@@ -1,4 +1,4 @@
-console.log("mahbub hasan riyad");
+console.log("Java practice");
 document.write("Mahbub hasan");
 //all basics practice
 /* */
@@ -45,4 +45,31 @@ document.write("Mahbub hasan");
 
 //ajax post request
 /*
+<body>
+
+        <button onclick="ExcPostRequest()">EXECUTE POST REQ</button>
+
+        <script>
+        function ExcPostRequest(){
+            var URL= "http://crud.teamrabbil.com/api/v1/CreateProduct"
+            var BodyData={Img:"123",
+            ProductCode:"123",
+            ProductName:"123",
+            Qty:"123",TotalPrice:"123",
+            UnitPrice:"123"};
+
+            var configuration={
+                method:'POST',
+                Headers:{'accept':'application/json','Content-Type':'application/'},
+                body:JSON.stringify(bodyData)
+            }
+            fetch(URL, configuration)
+            .then(Response=>Response.json())
+            .then(result=>console.log(result))
+            .catch(Error=>console.log(Error));
+        }
+            
+  
+        </script>
+    </body
  */
