@@ -1,2 +1,1 @@
-# JS Be
-#basic
+# JS Basic
