@@ -1,6 +1,7 @@
 console.log("mahbub hasan riyad");
 document.write("Mahbub hasan");
-
+//all basics practice
+/* */
 // Query Selector
 /*
 <body>
@@ -23,5 +24,4 @@ document.write("Mahbub hasan");
 */
 
 //Ajax
-
 /* */
