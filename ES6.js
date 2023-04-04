@@ -19,6 +19,7 @@ myName();*/
 //richC.push(poorC);
 
 //4   rest parameters
+/*
 function calculate(...numbers) {
   let sum = 0;
   for (let i of numbers) {
@@ -26,4 +27,4 @@ function calculate(...numbers) {
   }
   console.log(sum);
 }
-calculate(1, 2, 3, 4, 5, 3, 2, 4, 7);
+calculate(1, 2, 3, 4, 5, 3, 2, 4, 7);*/
