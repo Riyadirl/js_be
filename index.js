@@ -23,5 +23,26 @@ document.write("Mahbub hasan");
         </script>
 */
 
-//Ajax
-/* */
+//Ajax get request
+/* 
+        <button onclick="ExcGetRequest()">EXECUTE REQ</button>
+
+        <script>
+        function ExcGetRequest(){
+            var url = "http://crud.teamrabbil.com/api/v1/ReadProduct";
+            var Configaratoin = {method:"GET"};
+
+            fetch(URL, Configaratoin)
+            .then(response=>response.json())
+            .then(result=>console.log(result))
+            .catch(error=>console.log(error));
+
+        }    
+          
+            
+  
+        </script>*/
+
+//ajax post request
+/*
+ */
