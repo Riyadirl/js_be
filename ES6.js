@@ -28,3 +28,9 @@ function calculate(...numbers) {
   console.log(sum);
 }
 calculate(1, 2, 3, 4, 5, 3, 2, 4, 7);*/
+
+// 5   dynamic function
+var name = function (nameValue) {
+  return nameValue;
+};
+name();
