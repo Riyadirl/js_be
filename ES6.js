@@ -34,3 +34,16 @@ calculate(1, 2, 3, 4, 5, 3, 2, 4, 7);*/
 ///  return nameValue;
 //};
 //name("giugu");
+
+//for of loop
+/*var mc = ["ers", "sdf", "dsf", "sdf"];
+for (let hi of mc) {
+  console.log(hi);
+}
+ers
+sdf
+dsf
+sdf
+*/
+
+//14  object creation
