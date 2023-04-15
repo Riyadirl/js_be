@@ -46,8 +46,7 @@ dsf
 sdf
 */
 
-/*    
-14  object creation
+/*  14  object creation
 var bill = {
   face: {
     color: "white",
@@ -59,11 +58,8 @@ var bill = {
   },
   glass: true,
 };
-console.log(bill);
+console.log(bill["face"]["shape"]);
+
 //output
-{
-  face: { color: 'white', shape: ' bollter' },
-  shirt: { color: 'white', price: '23424usd' },
-  glass: true
-}
-*/
+/*bollter
+ */
