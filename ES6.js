@@ -46,7 +46,7 @@ dsf
 sdf
 */
 
-/*  14  object creation
+/*   14  object creation
 var bill = {
   face: {
     color: "white",
