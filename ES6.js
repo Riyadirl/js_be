@@ -10,6 +10,7 @@ function myName() {
 }
 myName();*/
 
+
 //3 with spread function
 //let poorC = ["Bd", "Sri"];
 //let richC = [...poorC,"USA", "Canada", "Italy"];
@@ -45,6 +46,7 @@ sdf
 dsf
 sdf
 */
+
 
 /*    
 14  object creation
