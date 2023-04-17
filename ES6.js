@@ -61,5 +61,19 @@ var bill = {
 console.log(bill["face"]["shape"]);
 
 //output
-/*bollter
+/*
+bollter
  */
+
+//16    for in
+var bill = {
+  face: {
+    color: "white",
+    shape: " bollter",
+  },
+  shirt: {
+    color: "white",
+    price: "23424usd",
+  },
+  glass: true,
+};
