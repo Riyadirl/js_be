@@ -69,7 +69,7 @@ bollter
 var bill = {
   face: {
     color: "white",
-    shape: " bollter",
+    shape: " round",
   },
   shirt: {
     color: "white",
