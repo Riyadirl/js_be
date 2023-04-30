@@ -79,4 +79,13 @@ var bill = {
   glass: true,
 }; */
 
-// Desiciones
+//22 Function
+
+/*var myArrow = (x) => {
+  console.log("x");
+};
+myArrow("efugiegfi"); */
+
+//ARRAY
+
+//
