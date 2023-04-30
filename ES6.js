@@ -89,3 +89,5 @@ myArrow("efugiegfi"); */
 //ARRAY
 
 //
+
+var arr = [];
