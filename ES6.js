@@ -66,7 +66,7 @@ bollter
  */
 
 //16    for in
-
+/*
 var bill = {
   face: {
     color: "white",
@@ -77,4 +77,6 @@ var bill = {
     price: "23424usd",
   },
   glass: true,
-};
+}; */
+
+// Desiciones
