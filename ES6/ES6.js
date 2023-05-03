@@ -89,12 +89,69 @@ myArrow("efugiegfi"); */
 //ARRAY
 
 //Multi dimensional array
-
-var Bd = ["dhaka", "comilla", "Ctg"];
-var Ind = ["mumbai", "kkr", "rcb"];
-var china = ["wuhan", "cq", "hq"];
-
-var asia = [Bd, Ind, China];
+/*
+const Bd = ["dhaka", "comilla", "Ctg"];
+const Ind = ["mumbai", "kkr", "rcb"];
+let China;
+let asia = [Bd, Ind, China];
 console.log(asia);
 
-console.log("efesd");
+
+console.log("efesd"); */
+
+
+
+//   MAP
+
+
+let myMap= new Map();
+
+myMap.set('key1',"Bd");
+myMap.set('key2',"id");
+myMap.set('key3',"br");
+myMap.set('key4',"arg");
+myMap.set('key5',"ch");
+myMap.set('key6',"erm");
+
+
+//console.log(myMap.keys())
+//console.log(myMap.values())
+//console.log(myMap)
+
+//for
+/*
+for(let myvalue of myMap.keys()){
+    console.log(myvalue)
+}
+for(let myvalue of myMap.values()){
+    console.log(myvalue)
+}*/
+
+
+//delete
+myMap.delete('key2')
+for(let myvalue of myMap.values()){
+    console.log(myvalue)
+}
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
