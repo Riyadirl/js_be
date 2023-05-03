@@ -103,7 +103,7 @@ console.log("efesd"); */
 
 //   MAP
 
-
+/*
 let myMap= new Map();
 
 myMap.set('key1',"Bd");
@@ -113,7 +113,7 @@ myMap.set('key4',"arg");
 myMap.set('key5',"ch");
 myMap.set('key6',"erm");
 
-
+*/
 //console.log(myMap.keys())
 //console.log(myMap.values())
 //console.log(myMap)
@@ -129,14 +129,38 @@ for(let myvalue of myMap.values()){
 
 
 //delete
+/*
 myMap.delete('key2')
 for(let myvalue of myMap.values()){
     console.log(myvalue)
 }
+*/
 
-//
+//get
+//console.log(myMap.get('key4'))
 
 
+// has key
+/*
+if(myMap.has('key1')){
+    console.log("yes")
+}else {
+    console.log("no")
+}
+*/
+
+
+//SET
+
+let mySet = new Set();
+
+mySet.add('wq67yugfeyuj')
+mySet.add('6778wuiyluyj')
+mySet.add('678wqhkj,huj')
+mySet.add('hjk,muuj')
+mySet.add('hjk,muuj')
+mySet.add('77689,uy')
+console.log(mySet)
 
 
 
