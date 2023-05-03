@@ -151,16 +151,57 @@ if(myMap.has('key1')){
 
 
 //SET
-
+/*
 let mySet = new Set();
 
-mySet.add('wq67yugfeyuj')
-mySet.add('6778wuiyluyj')
-mySet.add('678wqhkj,huj')
+mySet.add('1gfeyuj')
+mySet.add('26778wuiyluyj')
+mySet.add('3678wqhkj,huj')
 mySet.add('hjk,muuj')
 mySet.add('hjk,muuj')
 mySet.add('77689,uy')
+//console.log(mySet)
+
+//set delete
+mySet.delete('hjk,muuj')
 console.log(mySet)
+
+//size
+console.log(mySet.size)
+
+//values
+console.log(mySet.values())
+
+//has value
+if(mySet.has('1gfeyuj')){
+    console.log("yes")
+}else {
+    console.log("no")
+}
+*/
+
+
+
+//   CLASS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
