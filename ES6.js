@@ -88,6 +88,13 @@ myArrow("efugiegfi"); */
 
 //ARRAY
 
-//
+//Multi dimensional array
 
-var arr = [];
+var Bd = ["dhaka", "comilla", "Ctg"];
+var Ind = ["mumbai", "kkr", "rcb"];
+var china = ["wuhan", "cq", "hq"];
+
+var asia = [Bd, Ind, China];
+console.log(asia);
+
+console.log("efesd");
