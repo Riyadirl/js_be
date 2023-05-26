@@ -173,7 +173,7 @@ console.log(mySet.size)
 console.log(mySet.values())
 
 //has value
-if(mySet.has('1gfeyuj')){
++if(mySet.has('1gfeyuj')){
     console.log("yes")
 }else {
     console.log("no")
@@ -183,15 +183,54 @@ if(mySet.has('1gfeyuj')){
 
 
 //   CLASS
+/*
+class myClass{
+    myFun1(age){
+        console.log(age)
+    }
+    myFun2(age){
+        console.log(age)
+    }
+    myFun3(age){
+        console.log(age)
+    }
+    myFun4(age){
+        console.log(age)
+    }
+}
+let obj = new myClass();
+//obj.myFun3(23)
+//obj.myFun1(782)   */
 
 
+//   COSTRUCTOR
+/*
+class myClass{
+    constructor() {
+        console.log("im constructor")
+    }
+}
+new myClass() */
 
 
+// parameter constructor
+/*class myClass{
+    constructor(a,b) {
+       //console.log(a+b)
+        this.firstNum = a;
+        this.secNum=b;
+    }
+    add(){
+        let r = this.firstNum+this.secNum;
+        console.log(r)
+    }
+}
 
 
-
-
-
+let obj = new myClass(2,3)
+obj.add()
+*/
+ 
 
 
 
